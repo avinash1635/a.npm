@@ -9,7 +9,7 @@ pipeline
         {
             steps
             {
-                git 'https://github.com/avinash1635/a.docker.git'
+                git 'https://github.com/avinash1635/a.npm.git'
             }
         }
         stage ('continuous build')
