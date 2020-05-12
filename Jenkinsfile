@@ -17,9 +17,7 @@ pipeline
             steps
             {
                sh "npm install"
-               sh "npm build"  
-               sh "date"
-               sh "cal"
+               sh "npm build"
             }
         }
     }
